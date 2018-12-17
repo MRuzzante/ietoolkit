@@ -2444,7 +2444,7 @@ qui {
 		else if `:list weight_type in p_weights' local weight_type = "probability"
 		else if `:list weight_type in i_weights' local weight_type = "importance"
 
-		local weight_note	"Observations are weighted using variable `weight_var' as `weight_type' weights."
+		local weight_note	"Observations are weighted using variable `weight_var' as `weight_type' weights. "
 
 	}
 
